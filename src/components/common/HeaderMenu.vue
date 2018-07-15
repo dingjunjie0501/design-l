@@ -48,7 +48,8 @@ export default {
 
 <style>
 .logo {
-  height: 80px;
+  height: 44px;
+  padding: 18px 0;
 }
 .el-menu-demo {
   float: right;
