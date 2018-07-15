@@ -1,6 +1,8 @@
-# y
+# design-l
 
-> A Vue.js project
+> Design by Li Yiqi
+
+[预览](https://dingjunjie0501.github.io/design-l/dist/index.html)
 
 ## Build Setup
 
