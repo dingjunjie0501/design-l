@@ -2,8 +2,8 @@
   <div class="home">
     <div>
       <ul>
-        <li>
-          <img src="../../assets/a.png">
+        <li v-for="pic in picList" :key="pic.url">
+          <img :src="pic.url">
         </li>
       </ul>
     </div>
@@ -15,7 +15,14 @@ export default {
   name: "Home",
   data() {
     return {
-      msg: "/static/a.webp"
+      picList: [
+        { url: require("../../assets/20180715162041.jpg") },
+        { url: require("../../assets/20180715162116.jpg") },
+        { url: require("../../assets/20180715162126.jpg") },
+        { url: require("../../assets/20180715162135.jpg") },
+        { url: require("../../assets/20180715162144.jpg") },
+        { url: require("../../assets/20180715162153.jpg") }
+      ]
     };
   }
 };

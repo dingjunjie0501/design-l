@@ -30,9 +30,12 @@ body {
   background-color: #fff;
   border-bottom: 1px solid #e4e4e4;
   padding: 0 35px;
+  position: fixed;
+  width: 100%;
 }
 .el-main {
   padding: 20px 35px;
+  margin-top: 80px;
 }
 .fade-enter {
   opacity: 0;
