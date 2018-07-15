@@ -16,12 +16,24 @@ export default {
   data() {
     return {
       picList: [
-        { url: require("../../assets/20180715162041.jpg") },
-        { url: require("../../assets/20180715162116.jpg") },
-        { url: require("../../assets/20180715162126.jpg") },
-        { url: require("../../assets/20180715162135.jpg") },
-        { url: require("../../assets/20180715162144.jpg") },
-        { url: require("../../assets/20180715162153.jpg") }
+        {
+          url: "http://oty82poui.bkt.clouddn.com/20180715162041.jpg?imageslim"
+        },
+        {
+          url: "http://oty82poui.bkt.clouddn.com/20180715162116.jpg?imageslim"
+        },
+        {
+          url: "http://oty82poui.bkt.clouddn.com/20180715162126.jpg?imageslim"
+        },
+        {
+          url: "http://oty82poui.bkt.clouddn.com/20180715162135.jpg?imageslim"
+        },
+        {
+          url: "http://oty82poui.bkt.clouddn.com/20180715162144.jpg?imageslim"
+        },
+        {
+          url: "http://oty82poui.bkt.clouddn.com/20180715162153.jpg?imageslim"
+        }
       ]
     };
   }
