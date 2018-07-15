@@ -34,7 +34,7 @@ body {
   width: 100%;
 }
 .el-main {
-  padding: 20px 35px;
+  padding: 0 35px 20px 35px;
   margin-top: 80px;
 }
 .fade-enter {

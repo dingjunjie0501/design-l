@@ -44,6 +44,7 @@ export default {
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
   text-align: center;
 }
 img {
