@@ -3,7 +3,7 @@
     <div>
       <ul>
         <li>
-          <img src="/static/a.webp">
+          <img src="../../assets/a.png">
         </li>
       </ul>
     </div>
