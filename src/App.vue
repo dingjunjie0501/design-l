@@ -6,7 +6,7 @@
       </el-header>
       <el-main>
         <transition name="fade" mode="out-in">
-         <router-view/>
+          <router-view/>
         </transition>
       </el-main>
     </el-container>
@@ -23,9 +23,6 @@ export default {
 };
 </script>
 <style scoped>
-body {
-  background-color: #fafafa;
-}
 .el-header {
   background-color: #fff;
   border-bottom: 1px solid #e4e4e4;

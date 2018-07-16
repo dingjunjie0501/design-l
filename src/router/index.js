@@ -4,6 +4,7 @@ import Home from '@/components/page/Home'
 import App from '@/components/page/App'
 import Blog from '@/components/page/Blog'
 import Support from '@/components/page/Support'
+import Column from '@/components/page/Column'
 
 Vue.use(Router)
 
@@ -32,6 +33,11 @@ export default new Router({
       path: '/support',
       name: 'Support',
       component: Support
+    },
+    {
+      path: '/column/:id',
+      name: 'Column',
+      component: Column
     }
   ]
 })

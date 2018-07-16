@@ -1,0 +1,70 @@
+{
+  "picList": [
+    {
+      "id": "1",
+      "url": "http://oty82poui.bkt.clouddn.com/20180715162041.jpg?imageslim"
+    },
+    {
+      "id": "2",
+      "url": "http://oty82poui.bkt.clouddn.com/20180715162116.jpg?imageslim"
+    },
+    {
+      "id": "3",
+      "url": "http://oty82poui.bkt.clouddn.com/20180715162126.jpg?imageslim"
+    },
+    {
+      "id": "4",
+      "url": "http://oty82poui.bkt.clouddn.com/20180715162135.jpg?imageslim"
+    },
+    {
+      "id": "5",
+      "url": "http://oty82poui.bkt.clouddn.com/20180715162144.jpg?imageslim"
+    },
+    {
+      "id": "6",
+      "url": "http://oty82poui.bkt.clouddn.com/20180715162153.jpg?imageslim"
+    }
+  ],
+  "columnList": {
+    "1": [
+      {
+        "id": "1",
+        "url": "http://oty82poui.bkt.clouddn.com/20180715162041.jpg?imageslim"
+      },
+      {
+        "id": "3",
+        "url": "http://oty82poui.bkt.clouddn.com/20180715162126.jpg?imageslim"
+      },
+      {
+        "id": "5",
+        "url": "http://oty82poui.bkt.clouddn.com/20180715162144.jpg?imageslim"
+      }
+    ],
+    "2": [
+      {
+        "id": "2",
+        "url": "http://oty82poui.bkt.clouddn.com/20180715162116.jpg?imageslim"
+      },
+      {
+        "id": "4",
+        "url": "http://oty82poui.bkt.clouddn.com/20180715162135.jpg?imageslim"
+      },
+      {
+        "id": "6",
+        "url": "http://oty82poui.bkt.clouddn.com/20180715162153.jpg?imageslim"
+      }
+    ],
+    "3": [
+      {}
+    ],
+    "4": [
+      {}
+    ],
+    "5": [
+      {}
+    ],
+    "6": [
+      {}
+    ]
+  }
+}

@@ -2,8 +2,10 @@
   <div class="home">
     <div>
       <ul>
-        <li v-for="pic in picList" :key="pic.url">
-          <pic :url="pic.url"></pic>
+        <li v-for="pic in picList" :key="pic.id">
+          <router-link :to="{name:'Column', params:{id:pic.id}}">
+            <pic :url="pic.url"></pic>
+          </router-link>
         </li>
       </ul>
     </div>
@@ -11,31 +13,13 @@
 </template>
 
 <script>
+import Api from "@/api/api.json"
 import Pic from "@/components/common/Pic"
 export default {
   name: "Home",
   data() {
     return {
-      picList: [
-        {
-          url: "http://oty82poui.bkt.clouddn.com/20180715162041.jpg?imageslim"
-        },
-        {
-          url: "http://oty82poui.bkt.clouddn.com/20180715162116.jpg?imageslim"
-        },
-        {
-          url: "http://oty82poui.bkt.clouddn.com/20180715162126.jpg?imageslim"
-        },
-        {
-          url: "http://oty82poui.bkt.clouddn.com/20180715162135.jpg?imageslim"
-        },
-        {
-          url: "http://oty82poui.bkt.clouddn.com/20180715162144.jpg?imageslim"
-        },
-        {
-          url: "http://oty82poui.bkt.clouddn.com/20180715162153.jpg?imageslim"
-        }
-      ]
+      picList: Api.picList
     };
   },
   components: {
