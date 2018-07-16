@@ -3,7 +3,7 @@
     <div>
       <ul>
         <li v-for="pic in picList" :key="pic.url">
-          <img :src="pic.url">
+          <pic :url="pic.url"></pic>
         </li>
       </ul>
     </div>
@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import Pic from "@/components/common/Pic"
 export default {
   name: "Home",
   data() {
@@ -36,6 +37,9 @@ export default {
         }
       ]
     };
+  },
+  components: {
+    Pic
   }
 };
 </script>
@@ -46,9 +50,5 @@ ul {
   padding: 0;
   margin: 0;
   text-align: center;
-}
-img {
-  max-width: 100%;
-  max-height: 100%;
 }
 </style>
