@@ -11,7 +11,8 @@ export default {
   name: 'Picture',
   data() {
     return {
-      show: false
+      show: false,
+      src: ''
     }
   },
   props: {
