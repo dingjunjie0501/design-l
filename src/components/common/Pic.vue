@@ -8,7 +8,7 @@
 <script>
 import Loading from "@/components/common/Loading"
 export default {
-  name: 'Picture',
+  name: 'Pic',
   data() {
     return {
       show: false,

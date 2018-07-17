@@ -1,14 +1,12 @@
 <template>
   <div class="home">
-    <div>
-      <ul>
-        <li v-for="pic in picList" :key="pic.id">
-          <router-link :to="{name:'Column', params:{id:pic.id}}">
-            <pic :url="pic.url"></pic>
-          </router-link>
-        </li>
-      </ul>
-    </div>
+    <ul>
+      <li v-for="pic in picList" :key="pic.id">
+        <router-link :to="{name:'Column', params:{id:pic.id}}">
+          <pic :url="pic.url"></pic>
+        </router-link>
+      </li>
+    </ul>
   </div>
 </template>
 

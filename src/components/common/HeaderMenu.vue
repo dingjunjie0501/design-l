@@ -8,8 +8,6 @@
         <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
           <el-menu-item index="home">Home</el-menu-item>
           <el-menu-item index="app">App</el-menu-item>
-          <el-menu-item index="blog">Blog</el-menu-item>
-          <el-menu-item index="support">Support</el-menu-item>
         </el-menu>
       </el-col>
     </el-row>
@@ -18,11 +16,7 @@
 
 <script>
 export default {
-  data() {
-    return {
-      activeIndex: "home"
-    };
-  },
+  name: 'HeaderMenu',
   methods: {
     handleSelect(key, keyPath) {
       switch (key) {
@@ -32,15 +26,18 @@ export default {
         case "app":
           this.$router.push({ name: "App" });
           break;
-        case "blog":
-          this.$router.push({ name: "Blog" });
-          break;
-        case "support":
-          this.$router.push({ name: "Support" });
-          break;
         default:
           break;
       }
+    }
+  },
+  computed: {
+    activeIndex: function () {
+      let path = this.$route.name.toLowerCase();
+      if (path == 'column') {
+        return 'home';
+      }
+      return path
     }
   }
 };
