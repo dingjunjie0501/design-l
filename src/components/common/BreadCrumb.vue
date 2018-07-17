@@ -18,7 +18,7 @@ export default {
 </script>
 <style scoped>
 .breadcrumb {
-  padding: 16px 35px;
+  padding: 16px 60px;
   background-color: #fff;
   position: fixed;
   left: 0;

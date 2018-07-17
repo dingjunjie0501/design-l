@@ -45,15 +45,15 @@ export default {
 
 <style>
 .logo {
-  height: 44px;
-  padding: 18px 0;
+  height: 40px;
+  padding: 10px 0;
 }
 .el-menu-demo {
   float: right;
 }
 .el-menu--horizontal > .el-menu-item {
-  height: 79px;
-  line-height: 80px;
+  height: 59px;
+  line-height: 60px;
 }
 .el-menu--horizontal > .el-menu-item a {
   height: 100%;

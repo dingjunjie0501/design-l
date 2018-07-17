@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header height="80px">
+      <el-header>
         <headerMenu></headerMenu>
       </el-header>
       <el-main>
@@ -26,13 +26,13 @@ export default {
 .el-header {
   background-color: #fff;
   border-bottom: 1px solid #e4e4e4;
-  padding: 0 35px;
+  padding: 0 60px;
   position: fixed;
   width: 100%;
 }
 .el-main {
-  padding: 0 35px 20px 35px;
-  margin-top: 80px;
+  padding: 0 60px 20px 60px;
+  margin-top: 60px;
 }
 .fade-enter {
   opacity: 0;

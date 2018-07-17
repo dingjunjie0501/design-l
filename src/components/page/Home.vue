@@ -33,4 +33,7 @@ ul {
   margin: 0;
   text-align: center;
 }
+li {
+  margin-bottom: 60px;
+}
 </style>
