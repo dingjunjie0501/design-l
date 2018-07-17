@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/page/Home'
-import App from '@/components/page/App'
-import Column from '@/components/page/Column'
+// import App from '@/components/page/App'
+// import Column from '@/components/page/Column'
 
 Vue.use(Router)
 
@@ -20,12 +20,12 @@ export default new Router({
     {
       path: '/app',
       name: 'App',
-      component: App
+      component: () => import('@/components/page/App')
     },
     {
       path: '/column/:id',
       name: 'Column',
-      component: Column
+      component: () => import('@/components/page/Column')
     }
   ]
 })

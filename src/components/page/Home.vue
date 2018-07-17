@@ -3,7 +3,7 @@
     <ul>
       <li v-for="pic in picList" :key="pic.id">
         <router-link :to="{name:'Column', params:{id:pic.id}}">
-          <pic :url="pic.url"></pic>
+          <pic :url="pic.url" v-if="pic.url"></pic>
         </router-link>
       </li>
     </ul>

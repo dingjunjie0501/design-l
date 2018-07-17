@@ -1,6 +1,7 @@
 <template>
   <div class="picture">
-      <loading :show='!show'></loading>
+      <i class="el-icon-loading" v-show='!show'></i>
+      <!-- <loading :show='!show'></loading> -->
       <img :src="src" v-show='show'>
   </div>
 </template>
@@ -17,7 +18,8 @@ export default {
   },
   props: {
     url: {
-      type: String
+      type: String,
+      required: true
     }
   },
   components: {
@@ -26,9 +28,7 @@ export default {
   mounted() {
     var newImg = new Image()
     newImg.src = this.url
-    newImg.onerror = () => {    // 图片加载错误时的替换图片
-    }
-    newImg.onload = () => { // 图片加载成功后把地址给原来的img
+    newImg.onload = () => {
       this.src = newImg.src;
       this.show = true;
     }
@@ -40,5 +40,10 @@ export default {
 img {
   max-width: 100%;
   max-height: 100%;
+}
+.el-icon-loading {
+  display: inline-block;
+  font-size: 34px;
+  color: #29d;
 }
 </style>

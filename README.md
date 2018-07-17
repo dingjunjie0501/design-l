@@ -4,20 +4,32 @@
 
 [预览](https://dingjunjie0501.github.io/design-l/dist/index.html)
 
-## Build Setup
+# 七牛云与微博图床图片对应 (?imageslim)
+20180715162041.jpg
+http://oty82poui.bkt.clouddn.com/20180715162041.jpg
+http://wx4.sinaimg.cn/large/0060lm7Tly1ftcu10ksprj315o0qejvr.jpg
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+20180715162116.jpg
+http://oty82poui.bkt.clouddn.com/20180715162116.jpg
+http://wx2.sinaimg.cn/large/0060lm7Tly1ftcu1wpy23j31kw11xe84.jpg
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+20180715162126.jpg
+http://oty82poui.bkt.clouddn.com/20180715162126.jpg
+http://wx1.sinaimg.cn/large/0060lm7Tly1ftcu23hgmfj31kw13ukjp.jpg
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+20180715162135.jpg
+http://oty82poui.bkt.clouddn.com/20180715162135.jpg
+http://wx4.sinaimg.cn/large/0060lm7Tly1ftcu16rsn5j30yq0q27j9.jpg
+
+
+20180715162144.jpg
+http://oty82poui.bkt.clouddn.com/20180715162144.jpg
+http://wx2.sinaimg.cn/large/0060lm7Tly1ftcu18ij2tj31kw1kwe6e.jpg
+
+
+20180715162153.jpg
+http://oty82poui.bkt.clouddn.com/20180715162153.jpg
+http://wx2.sinaimg.cn/large/0060lm7Tly1ftcuizhnywj31kw16o7wr.jpg

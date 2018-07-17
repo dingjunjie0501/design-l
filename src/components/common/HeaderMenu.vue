@@ -33,7 +33,7 @@ export default {
   },
   computed: {
     activeIndex: function () {
-      let path = this.$route.name.toLowerCase();
+      let path = !this.$route.name ? 'home' : this.$route.name.toLowerCase();
       if (path == 'column') {
         return 'home';
       }

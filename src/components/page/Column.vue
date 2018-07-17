@@ -3,7 +3,7 @@
     <breadCrumb :id="id"></breadCrumb>
     <ul>
       <li v-for="pic in picList" :key="pic.id">
-        <pic :url="pic.url"></pic>
+        <pic :url="pic.url" v-if="pic.url"></pic>
       </li>
     </ul>
   </div>
