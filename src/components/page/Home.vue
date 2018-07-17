@@ -36,4 +36,9 @@ ul {
 li {
   margin-bottom: 60px;
 }
+@media (max-width: 768px) {
+  li {
+    margin-bottom: 12px;
+  }
+}
 </style>

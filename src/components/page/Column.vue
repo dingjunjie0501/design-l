@@ -37,4 +37,9 @@ ul {
   margin: 0;
   text-align: center;
 }
+@media (max-width: 768px) {
+  ul {
+    padding: 30px 0 0 0;
+  }
+}
 </style>

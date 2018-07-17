@@ -24,4 +24,9 @@ export default {
   left: 0;
   right: 0;
 }
+@media (max-width: 768px) {
+  .breadcrumb {
+    padding: 8px 12px;
+  }
+}
 </style>

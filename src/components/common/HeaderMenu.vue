@@ -60,5 +60,11 @@ export default {
   display: block;
   text-decoration-line: none;
 }
+@media (max-width: 768px) {
+  .el-menu--horizontal > .el-menu-item {
+    font-size: 12px;
+    padding: 0 8px;
+  }
+}
 </style>
 

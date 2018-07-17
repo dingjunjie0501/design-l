@@ -34,6 +34,15 @@ export default {
   padding: 0 60px 20px 60px;
   margin-top: 60px;
 }
+@media (max-width: 768px) {
+  .el-header {
+    padding: 0 12px;
+  }
+  .el-main {
+    padding: 0 12px 12px 12px;
+    margin-top: 60px;
+  }
+}
 .fade-enter {
   opacity: 0;
 }
