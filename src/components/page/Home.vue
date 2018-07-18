@@ -36,7 +36,17 @@ ul {
 li {
   margin-bottom: 60px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
+  li {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 1024px) {
+  li {
+    margin-bottom: 18px;
+  }
+}
+@media (max-width: 812px) {
   li {
     margin-bottom: 12px;
   }

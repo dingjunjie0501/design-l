@@ -60,10 +60,22 @@ export default {
   display: block;
   text-decoration-line: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
+  .el-menu--horizontal > .el-menu-item {
+    font-size: 16px;
+    padding: 0 18px;
+  }
+}
+@media (max-width: 1024px) {
+  .el-menu--horizontal > .el-menu-item {
+    font-size: 14px;
+    padding: 0 16px;
+  }
+}
+@media (max-width: 812px) {
   .el-menu--horizontal > .el-menu-item {
     font-size: 12px;
-    padding: 0 8px;
+    padding: 0 12px;
   }
 }
 </style>

@@ -37,9 +37,19 @@ ul {
   margin: 0;
   text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
   ul {
-    padding: 30px 0 0 0;
+    padding-top: 32px;
+  }
+}
+@media (max-width: 1024px) {
+  ul {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 812px) {
+  ul {
+    padding-top: 29px;
   }
 }
 </style>

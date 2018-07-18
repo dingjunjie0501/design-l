@@ -34,7 +34,25 @@ export default {
   padding: 0 60px 20px 60px;
   margin-top: 60px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
+  .el-header {
+    padding: 0 24px;
+  }
+  .el-main {
+    padding: 0 24px 24px 24px;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .el-header {
+    padding: 0 18px;
+  }
+  .el-main {
+    padding: 0 18px 18px 18px;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 812px) {
   .el-header {
     padding: 0 12px;
   }

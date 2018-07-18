@@ -24,9 +24,28 @@ export default {
   left: 0;
   right: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
+  .breadcrumb {
+    padding: 8px 24px;
+  }
+  .el-breadcrumb .el-breadcrumb__item {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .breadcrumb {
+    padding: 8px 18px;
+  }
+  .el-breadcrumb .el-breadcrumb__item {
+    font-size: 14px;
+  }
+}
+@media (max-width: 812px) {
   .breadcrumb {
     padding: 8px 12px;
+  }
+  .el-breadcrumb .el-breadcrumb__item {
+    font-size: 12px;
   }
 }
 </style>
