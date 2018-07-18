@@ -37,19 +37,31 @@ ul {
   margin: 0;
   text-align: center;
 }
+li {
+  margin-bottom: 60px;
+}
 @media (max-width: 1366px) {
   ul {
     padding-top: 32px;
+  }
+  li {
+    margin-bottom: 24px;
   }
 }
 @media (max-width: 1024px) {
   ul {
     padding-top: 30px;
   }
+  li {
+    margin-bottom: 18px;
+  }
 }
 @media (max-width: 812px) {
   ul {
     padding-top: 29px;
+  }
+  li {
+    margin-bottom: 12px;
   }
 }
 </style>
