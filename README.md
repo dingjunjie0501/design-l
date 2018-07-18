@@ -5,6 +5,10 @@
 [预览](https://dingjunjie0501.github.io/design-l/dist/index.html)
 
 # 七牛云与微博图床图片对应 (?imageslim)
+logo.png
+http://oty82poui.bkt.clouddn.com/logo.png
+https://wx4.sinaimg.cn/large/0060lm7Tly1ftduythz1uj30g309u3zt.jpg
+
 20180715162041.jpg
 http://oty82poui.bkt.clouddn.com/20180715162041.jpg
 https://wx4.sinaimg.cn/large/0060lm7Tly1ftcu10ksprj315o0qejvr.jpg

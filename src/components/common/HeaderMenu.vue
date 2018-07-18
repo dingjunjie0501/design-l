@@ -2,7 +2,7 @@
   <div class="headerMenu">
     <el-row>
       <el-col :span="6">
-        <img src="@/assets/logo.png" class="logo">
+        <img :src="logo" class="logo">
       </el-col>
       <el-col :span="18">
         <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
@@ -15,8 +15,14 @@
 </template>
 
 <script>
+import Api from "@/api/api"
 export default {
   name: 'HeaderMenu',
+  data() {
+    return {
+      logo: Api.logo
+    }
+  },
   methods: {
     handleSelect(key, keyPath) {
       switch (key) {
